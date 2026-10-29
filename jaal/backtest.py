@@ -18,7 +18,8 @@ def backtest_metrics(scored: pd.DataFrame, k: int = 5) -> dict:
     negatives = max(1, int((test["label"] == 0).sum()))
     lead_days = []
     if "next_order_date" in test:
-        for row in test[test["label"] == 1].itertuples(index=False):
+        detected = test[(test["label"] == 1) & (test["jaal_score"] >= 35)]
+        for row in detected.itertuples(index=False):
             if pd.notna(row.next_order_date):
                 lead_days.append((pd.Timestamp(row.next_order_date) - pd.Timestamp(row.date)).days)
     return {"precision_at_k": true_positives / max(1, len(top)),

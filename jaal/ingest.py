@@ -61,3 +61,28 @@ def fetch_nse_api(path: str, *, timeout: int = 20) -> dict:
 def fetch_bse_csv(url: str) -> pd.DataFrame:
     """Fetch a public BSE CSV archive URL (deal disclosures/announcements)."""
     return fetch_csv(url)
+
+
+def fetch_nse_bulk_block_deals(url: str) -> pd.DataFrame:
+    """Fetch an NSE bulk/block deal export URL as a raw table."""
+    return fetch_csv(url)
+
+
+def fetch_nse_shareholding(url: str) -> pd.DataFrame:
+    """Fetch an NSE shareholding-pattern export URL as a raw table."""
+    return fetch_csv(url)
+
+
+def fetch_nse_insider_disclosures(url: str) -> pd.DataFrame:
+    """Fetch an NSE insider-trading disclosure export URL as a raw table."""
+    return fetch_csv(url)
+
+
+def fetch_nse_announcements(url: str) -> dict:
+    """Fetch the JSON response from an NSE corporate-announcements API URL."""
+    return fetch_nse_api(url)
+
+
+def fetch_sebi_orders(url: str) -> pd.DataFrame:
+    """Fetch a machine-readable SEBI orders export for historical labels."""
+    return fetch_csv(url)

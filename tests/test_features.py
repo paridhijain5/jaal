@@ -3,6 +3,7 @@ import pandas as pd
 from jaal.engines.anomaly import add_anomaly_features
 from jaal.features import build_features
 from jaal.ingest import load_sample_data
+from jaal.model import time_split
 
 
 def test_anomaly_features_are_finite_and_trailing():
@@ -23,3 +24,10 @@ def test_build_features_uses_asof_overlap_and_forward_labels():
     early = features[(features["symbol"] == "JAAL02") & (features["date"] < pd.Timestamp("2024-02-20"))]
     assert early["shared_entity_count"].max() == 0
     assert features["label"].sum() > 0
+
+
+def test_time_split_embargoes_forward_label_horizon():
+    features = build_features(load_sample_data())
+    train, test = time_split(features, label_horizon_days=20)
+    assert train["date"].max() < test["date"].min()
+    assert (test["date"].min() - train["date"].max()).days > 20
