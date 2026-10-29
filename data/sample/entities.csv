@@ -1,0 +1,23 @@
+date,symbol,entity,entity_type,relationship,source
+2024-01-02,JAAL01,Local Director 00,Director,director,shareholding
+2024-01-02,JAAL02,Local Director 01,Director,director,shareholding
+2024-01-02,JAAL03,Local Director 02,Director,director,shareholding
+2024-01-02,JAAL04,Local Director 03,Director,director,shareholding
+2024-01-02,JAAL05,Local Director 04,Director,director,shareholding
+2024-01-02,JAAL06,Local Director 05,Director,director,shareholding
+2024-01-02,JAAL07,Local Director 06,Director,director,shareholding
+2024-01-02,JAAL08,Local Director 07,Director,director,shareholding
+2024-01-02,JAAL09,Local Director 08,Director,director,shareholding
+2024-01-02,JAAL10,Local Director 09,Director,director,shareholding
+2024-01-02,JAAL11,Local Director 10,Director,director,shareholding
+2024-01-02,JAAL12,Local Director 11,Director,director,shareholding
+2024-02-20,JAAL02,Meridian Advisors,Connected entity,bulk_deal_counterparty,bulk_block_deals
+2024-02-20,JAAL02,R. Mehta,Common director,director,bulk_block_deals
+2024-02-20,JAAL05,Meridian Advisors,Connected entity,bulk_deal_counterparty,bulk_block_deals
+2024-02-20,JAAL05,R. Mehta,Common director,director,bulk_block_deals
+2024-02-20,JAAL08,Meridian Advisors,Connected entity,bulk_deal_counterparty,bulk_block_deals
+2024-02-20,JAAL08,R. Mehta,Common director,director,bulk_block_deals
+2024-02-20,JAAL10,Bluecrest Holdings,Connected entity,bulk_deal_counterparty,bulk_block_deals
+2024-02-20,JAAL10,S. Kapoor,Common director,director,bulk_block_deals
+2024-02-20,JAAL11,Bluecrest Holdings,Connected entity,bulk_deal_counterparty,bulk_block_deals
+2024-02-20,JAAL11,S. Kapoor,Common director,director,bulk_block_deals

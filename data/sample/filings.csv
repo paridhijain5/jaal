@@ -1,0 +1,45 @@
+date,symbol,filing_type,description,severity,entity
+2024-04-02,JAAL01,corporate_announcement,Quarterly business update,0.05,Company
+2024-04-02,JAAL02,corporate_announcement,Quarterly business update,0.05,Company
+2024-04-02,JAAL03,corporate_announcement,Quarterly business update,0.05,Company
+2024-04-02,JAAL04,corporate_announcement,Quarterly business update,0.05,Company
+2024-04-02,JAAL05,corporate_announcement,Quarterly business update,0.05,Company
+2024-04-02,JAAL06,corporate_announcement,Quarterly business update,0.05,Company
+2024-04-02,JAAL07,corporate_announcement,Quarterly business update,0.05,Company
+2024-04-02,JAAL08,corporate_announcement,Quarterly business update,0.05,Company
+2024-04-02,JAAL09,corporate_announcement,Quarterly business update,0.05,Company
+2024-04-02,JAAL10,corporate_announcement,Quarterly business update,0.05,Company
+2024-04-02,JAAL11,corporate_announcement,Quarterly business update,0.05,Company
+2024-04-02,JAAL12,corporate_announcement,Quarterly business update,0.05,Company
+2024-05-01,JAAL03,preferential_allotment,Routine disclosure,0.05,Company
+2024-05-03,JAAL04,bulk_deal,Routine disclosure,0.05,Company
+2024-05-10,JAAL04,bulk_deal,Routine disclosure,0.05,Company
+2024-05-29,JAAL03,preferential_allotment,Routine disclosure,0.05,Company
+2024-07-03,JAAL09,delayed_results,Routine disclosure,0.05,Company
+2024-07-15,JAAL05,pledge_increase,Synthetic pledge increase disclosure,0.2,Meridian Advisors
+2024-07-15,JAAL08,pledge_increase,Synthetic pledge increase disclosure,0.2,Meridian Advisors
+2024-07-15,JAAL02,pledge_increase,Synthetic pledge increase disclosure,0.2,Meridian Advisors
+2024-07-17,JAAL02,preferential_allotment,Synthetic preferential allotment disclosure,0.2,Meridian Advisors
+2024-07-17,JAAL05,preferential_allotment,Synthetic preferential allotment disclosure,0.2,Meridian Advisors
+2024-07-17,JAAL08,preferential_allotment,Synthetic preferential allotment disclosure,0.2,Meridian Advisors
+2024-07-19,JAAL02,insider_sale,Synthetic insider sale disclosure,0.2,Meridian Advisors
+2024-07-19,JAAL05,insider_sale,Synthetic insider sale disclosure,0.2,Meridian Advisors
+2024-07-19,JAAL08,insider_sale,Synthetic insider sale disclosure,0.2,Meridian Advisors
+2024-09-03,JAAL10,auditor_resignation,Synthetic auditor resignation disclosure,0.34,Bluecrest Holdings
+2024-09-03,JAAL11,auditor_resignation,Synthetic auditor resignation disclosure,0.34,Bluecrest Holdings
+2024-09-17,JAAL01,auditor_resignation,Routine disclosure,0.05,Company
+2024-10-09,JAAL01,corporate_announcement,Routine disclosure,0.05,Company
+2024-12-11,JAAL07,insider_sale,Routine disclosure,0.05,Company
+2024-12-31,JAAL09,delayed_results,Routine disclosure,0.05,Company
+2025-01-08,JAAL09,insider_sale,Routine disclosure,0.05,Company
+2025-02-24,JAAL03,pledge_increase,Routine disclosure,0.05,Company
+2025-03-28,JAAL04,preferential_allotment,Routine disclosure,0.05,Company
+2025-04-11,JAAL01,corporate_announcement,Routine disclosure,0.05,Company
+2025-05-23,JAAL06,auditor_resignation,Routine disclosure,0.05,Company
+2025-06-03,JAAL06,preferential_allotment,Routine disclosure,0.05,Company
+2025-06-09,JAAL12,pledge_increase,Routine disclosure,0.05,Company
+2025-06-09,JAAL12,insider_sale,Routine disclosure,0.05,Company
+2025-06-16,JAAL07,insider_sale,Routine disclosure,0.05,Company
+2025-06-20,JAAL12,corporate_announcement,Routine disclosure,0.05,Company
+2025-06-24,JAAL07,auditor_resignation,Routine disclosure,0.05,Company
+2025-07-03,JAAL06,delayed_results,Routine disclosure,0.05,Company

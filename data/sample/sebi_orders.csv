@@ -1,0 +1,6 @@
+order_date,symbol,case_id,order_type,summary,penalised
+2024-08-08,JAAL02,SEBI-SYN-0241,Market manipulation,Coordinated trading and connected-account activity; synthetic demo case,1
+2024-12-26,JAAL05,SEBI-SYN-0318,Price manipulation,Artificial price/volume build-up and misleading disclosures; synthetic demo case,1
+2024-09-26,JAAL10,SEBI-SYN-0280,Circular trading,Repeated connected counterparties and abnormal delivery; synthetic demo case,1
+2025-09-11,JAAL08,SEBI-SYN-0425,Connected trading,Synthetic holdout pattern involving repeat counterparties and abnormal turnover,1
+2025-10-20,JAAL11,SEBI-SYN-0460,Disclosure concerns,Synthetic holdout pattern with an abnormal volume and price episode,1
